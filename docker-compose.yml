@@ -1,0 +1,7 @@
+services:
+  ninjakart:
+    build: .
+    container_name: ninjakart
+    ports:
+      - "8080:80"
+    restart: unless-stopped
